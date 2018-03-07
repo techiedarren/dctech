@@ -14,7 +14,13 @@
   "type": "object",
   "properties": {
 
-    "image": { "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/image-link" },
+    "image": {
+      "title": "Image",
+
+      "allOf": [
+        { "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/image-link" }
+      ]
+    },
 
     "aspectRatio": {
       "$ref": "https://raw.githubusercontent.com/techiedarren/dc-examples/master/content-types/mixins/aspect-ratio.json#"
