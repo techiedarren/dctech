@@ -1,0 +1,40 @@
+{
+  "$schema": "http://bigcontent.io/cms/schema/v1/schema#",
+  "id": "<url>",
+
+  "title": "Image Block",
+  "description": "",
+
+  "allOf": [
+    {
+      "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content"
+    }
+  ],
+  "type": "object",
+  "properties": {
+
+    "image": {
+      "allOf": [
+        { "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/image-link" },
+        {
+          "title": "Image"
+        }
+      ]
+    },
+
+    "aspectRatio": {
+      "$ref": "../mixins/aspect-ratio.json#"
+    },
+
+    "mobileAspectRatio": {
+      "allOf": [
+        { "$ref": "../mixins/aspect-ratio.json#" },
+        {
+          "title": "Mobile Aspect Ratio"
+        }
+      ]
+    }
+  },
+
+  "propertyOrder": [ "image", "aspectRatio", "mobileAspectRatio" ]
+}

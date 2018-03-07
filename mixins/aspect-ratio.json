@@ -1,0 +1,14 @@
+{
+  "type": "object",
+  "properties": {
+    "w": {
+      "title": "Width",
+      "type": "number"
+    },
+    "h": {
+      "title": "Height",
+      "type": "number"
+    }
+  },
+  "propertyOrder": ["w", "h"]
+}
