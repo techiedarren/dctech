@@ -1,4 +1,5 @@
 {
+  "$schema":"http://json-schema.org/draft-04/schema#",
   "id": "https://raw.githubusercontent.com/techiedarren/dctech/master/mixins/aspect-ratio.json",
 
   "type": "object",
