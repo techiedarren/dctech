@@ -1,7 +1,8 @@
 {
   "$schema": "http://bigcontent.io/cms/schema/v1/schema#",
   "id": "https://raw.githubusercontent.com/techiedarren/dctech/master/blocks/image-block.json",
-
+  "Id": "https://raw.githubusercontent.com/techiedarren/dctech/master/blocks/image-block.json",
+  
   "title": "Image Block",
   "description": "",
 
