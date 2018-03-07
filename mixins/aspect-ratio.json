@@ -3,8 +3,8 @@
   "id": "https://raw.githubusercontent.com/techiedarren/dctech/master/mixins/aspect-ratio.json",
   "Id": "https://raw.githubusercontent.com/techiedarren/dctech/master/mixins/aspect-ratio.json",
 
-  "title": "",
-  "description": "",
+  "title": "Aspect Ratio",
+  "description": "...aspect ratio",
 
   "type": "object",
   "properties": {
