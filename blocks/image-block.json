@@ -1,7 +1,6 @@
 {
   "$schema": "http://bigcontent.io/cms/schema/v1/schema#",
   "id": "https://raw.githubusercontent.com/techiedarren/dctech/master/blocks/image-block.json",
-  "Id": "https://raw.githubusercontent.com/techiedarren/dctech/master/blocks/image-block.json",
 
   "title": "Image Block",
   "description": "",
@@ -11,6 +10,7 @@
       "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content"
     }
   ],
+
   "type": "object",
   "properties": {
 
@@ -24,12 +24,12 @@
     },
 
     "aspectRatio": {
-      "$ref": "../mixins/aspect-ratio.json#"
+      "$ref": "https://raw.githubusercontent.com/techiedarren/dc-examples/master/content-types/mixins/aspect-ratio.json#"
     },
 
     "mobileAspectRatio": {
       "allOf": [
-        { "$ref": "../mixins/aspect-ratio.json#" },
+        { "$ref": "https://raw.githubusercontent.com/techiedarren/dc-examples/master/content-types/mixins/aspect-ratio.json#" },
         {
           "title": "Mobile Aspect Ratio"
         }
